@@ -239,7 +239,7 @@ export function MilestonesSection() {
 
           <div className="flex flex-col gap-24">
             {milestones.map((milestone, i) => (
-              <div key={milestone.year} data-index={i}>
+              <div key={milestone.title} data-index={i}>
                 <MilestoneCard
                   milestone={milestone}
                   index={i}
